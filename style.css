@@ -1,0 +1,189 @@
+body{
+    padding: 20px;
+    background-color: rgb(202, 202, 202);
+}
+
+.mainContainer{
+ 
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    padding: 5px;
+    justify-content: space-between;
+    background-color: rgb(3, 2, 39);
+    border-radius: 10px;
+
+
+}
+
+.leftContainer{
+    background-color: blueviolet;
+    color: white;
+    padding: 2%;
+    background-color: rgb(3, 2, 39);
+
+}
+
+.rightContainer{
+    background-color: whitesmoke;
+    color: black;
+    padding: 2%;
+    border-radius: 20px;
+
+}
+
+.cornerImg{
+    width: 25px;
+    align-self: flex-start;
+    display: flex;
+
+}
+
+.searchBarContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(187, 193, 199);
+}
+
+.searchBar{
+    background-color: inherit;
+    padding: 5%;
+    width: 75%;
+    border-radius: inherit;
+    border: none;
+    outline: none;
+}
+
+.projectText{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 25%;
+}
+
+.projectsShow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boxProject{
+    margin: 10px;
+}
+
+.boxProjectText{
+    background-color:rgb(53, 53, 50);
+    padding: 25px;
+    border-radius: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.rightTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.profileImg{
+    width: 50px;
+    border-radius: 50%;
+
+}
+
+.rightMiddle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.dotDotDot{
+    width: 50px;
+}
+
+.todayBelow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkImg{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.righBelowMiddle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cornerRightImg{
+    width: 50px;
+    margin-top: 50px;
+    align-self: flex-end;
+
+}
+
+.waitingText{
+    background-color: rgb(201, 201, 201);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+}
+
+.inReviewText{
+    color: rgb(197, 27, 27);
+    background-color: rgb(211, 202, 127);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+}
+
+.inProgressText{
+    color: rgb(1, 89, 172);
+    background-color: rgb(165, 188, 235);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+
+}
+
+.approvedText{
+    color: rgb(26, 212, 26);
+    background-color: rgb(184, 230, 195);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+
+}
+
+.addProfileImg{
+    width: 40px;
+}
+
